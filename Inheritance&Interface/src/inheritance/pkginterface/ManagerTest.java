@@ -7,11 +7,6 @@ public class ManagerTest {
         staff[2] = new Employee("Isabel Vidal", 3000000, 1, 11, 1993);
         int i;
         for (i = 0; i < 3; i++) staff[i].raiseSalary(5);
-        System.out.println("Before Sorting");
-        for (i = 0; i < 3; i++) staff[i].print();
-        Sortable.shell_sort(staff);
-        
-        System.out.println("After Sorting");
         for (i = 0; i < 3; i++) staff[i].print();
 
     }
